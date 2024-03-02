@@ -1,0 +1,1596 @@
+{
+  "compilationUnit": [
+    {
+      "importDeclaration": [
+        {
+          "type": 25,
+          "text": "import"
+        },
+        {
+          "qualifiedName": [
+            {
+              "type": 100,
+              "text": "java"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "util"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "ArrayList"
+            }
+          ]
+        },
+        {
+          "type": 63,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "importDeclaration": [
+        {
+          "type": 25,
+          "text": "import"
+        },
+        {
+          "qualifiedName": [
+            {
+              "type": 100,
+              "text": "java"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "util"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "List"
+            }
+          ]
+        },
+        {
+          "type": 63,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "importDeclaration": [
+        {
+          "type": 25,
+          "text": "import"
+        },
+        {
+          "qualifiedName": [
+            {
+              "type": 100,
+              "text": "java"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "util"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "Random"
+            }
+          ]
+        },
+        {
+          "type": 63,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "importDeclaration": [
+        {
+          "type": 25,
+          "text": "import"
+        },
+        {
+          "qualifiedName": [
+            {
+              "type": 100,
+              "text": "java"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "time"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "LocalDate"
+            }
+          ]
+        },
+        {
+          "type": 63,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "importDeclaration": [
+        {
+          "type": 25,
+          "text": "import"
+        },
+        {
+          "qualifiedName": [
+            {
+              "type": 100,
+              "text": "java"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "time"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "format"
+            },
+            {
+              "type": 65,
+              "text": "."
+            },
+            {
+              "type": 100,
+              "text": "DateTimeFormatter"
+            }
+          ]
+        },
+        {
+          "type": 63,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "typeDeclaration": [
+        {
+          "classOrInterfaceModifier": [
+            {
+              "type": 35,
+              "text": "public"
+            }
+          ]
+        },
+        {
+          "classDeclaration": [
+            {
+              "type": 9,
+              "text": "class"
+            },
+            {
+              "type": 100,
+              "text": "Example"
+            },
+            {
+              "classBody": [
+                {
+                  "type": 59,
+                  "text": "{"
+                },
+                {
+                  "classBodyDeclaration": [
+                    {
+                      "modifier": [
+                        {
+                          "classOrInterfaceModifier": [
+                            {
+                              "type": 35,
+                              "text": "public"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modifier": [
+                        {
+                          "classOrInterfaceModifier": [
+                            {
+                              "type": 38,
+                              "text": "static"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "memberDeclaration": [
+                        {
+                          "methodDeclaration": [
+                            {
+                              "type": 48,
+                              "text": "void"
+                            },
+                            {
+                              "type": 100,
+                              "text": "main"
+                            },
+                            {
+                              "formalParameters": [
+                                {
+                                  "type": 57,
+                                  "text": "("
+                                },
+                                {
+                                  "formalParameterList": [
+                                    {
+                                      "formalParameter": [
+                                        {
+                                          "typeSpec": [
+                                            {
+                                              "classOrInterfaceType": [
+                                                {
+                                                  "type": 100,
+                                                  "text": "String"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 61,
+                                              "text": "["
+                                            },
+                                            {
+                                              "type": 62,
+                                              "text": "]"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "variableDeclaratorId": [
+                                            {
+                                              "type": 100,
+                                              "text": "args"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": 58,
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "methodBody": [
+                                {
+                                  "block": [
+                                    {
+                                      "type": 59,
+                                      "text": "{"
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "classOrInterfaceType": [
+                                                        {
+                                                          "type": 100,
+                                                          "text": "List"
+                                                        },
+                                                        {
+                                                          "typeArguments": [
+                                                            {
+                                                              "type": 68,
+                                                              "text": "\u003c"
+                                                            },
+                                                            {
+                                                              "typeArgument": [
+                                                                {
+                                                                  "typeSpec": [
+                                                                    {
+                                                                      "classOrInterfaceType": [
+                                                                        {
+                                                                          "type": 100,
+                                                                          "text": "String"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 67,
+                                                              "text": "\u003e"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "names"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "type": 31,
+                                                                  "text": "new"
+                                                                },
+                                                                {
+                                                                  "creator": [
+                                                                    {
+                                                                      "createdName": [
+                                                                        {
+                                                                          "type": 100,
+                                                                          "text": "ArrayList"
+                                                                        },
+                                                                        {
+                                                                          "typeArgumentsOrDiamond": [
+                                                                            {
+                                                                              "type": 68,
+                                                                              "text": "\u003c"
+                                                                            },
+                                                                            {
+                                                                              "type": 67,
+                                                                              "text": "\u003e"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "classCreatorRest": [
+                                                                        {
+                                                                          "arguments": [
+                                                                            {
+                                                                              "type": 57,
+                                                                              "text": "("
+                                                                            },
+                                                                            {
+                                                                              "type": 58,
+                                                                              "text": ")"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "type": 100,
+                                                                  "text": "names"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "add"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "literal": [
+                                                                    {
+                                                                      "type": 55,
+                                                                      "text": "\"Alice\""
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "type": 100,
+                                                                  "text": "names"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "add"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "literal": [
+                                                                    {
+                                                                      "type": 55,
+                                                                      "text": "\"Bob\""
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "type": 100,
+                                                                  "text": "names"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "add"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "primary": [
+                                                                {
+                                                                  "literal": [
+                                                                    {
+                                                                      "type": 55,
+                                                                      "text": "\"Charlie\""
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "System"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 65,
+                                                              "text": "."
+                                                            },
+                                                            {
+                                                              "type": 100,
+                                                              "text": "out"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "literal": [
+                                                                        {
+                                                                          "type": 55,
+                                                                          "text": "\"Names: \""
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 81,
+                                                              "text": "+"
+                                                            },
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "names"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "classOrInterfaceType": [
+                                                        {
+                                                          "type": 100,
+                                                          "text": "Random"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "rand"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "type": 31,
+                                                                  "text": "new"
+                                                                },
+                                                                {
+                                                                  "creator": [
+                                                                    {
+                                                                      "createdName": [
+                                                                        {
+                                                                          "type": 100,
+                                                                          "text": "Random"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "classCreatorRest": [
+                                                                        {
+                                                                          "arguments": [
+                                                                            {
+                                                                              "type": 57,
+                                                                              "text": "("
+                                                                            },
+                                                                            {
+                                                                              "type": 58,
+                                                                              "text": ")"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "primitiveType": [
+                                                        {
+                                                          "type": 27,
+                                                          "text": "int"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "randomNumber"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "expression": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 100,
+                                                                              "text": "rand"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 65,
+                                                                      "text": "."
+                                                                    },
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "nextInt"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 57,
+                                                                  "text": "("
+                                                                },
+                                                                {
+                                                                  "expressionList": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "literal": [
+                                                                                {
+                                                                                  "type": 51,
+                                                                                  "text": "100"
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 58,
+                                                                  "text": ")"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "System"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 65,
+                                                              "text": "."
+                                                            },
+                                                            {
+                                                              "type": 100,
+                                                              "text": "out"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "literal": [
+                                                                        {
+                                                                          "type": 55,
+                                                                          "text": "\"Random number: \""
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 81,
+                                                              "text": "+"
+                                                            },
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "randomNumber"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "classOrInterfaceType": [
+                                                        {
+                                                          "type": 100,
+                                                          "text": "LocalDate"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "currentDate"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "expression": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 100,
+                                                                              "text": "LocalDate"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 65,
+                                                                      "text": "."
+                                                                    },
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "now"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 57,
+                                                                  "text": "("
+                                                                },
+                                                                {
+                                                                  "type": 58,
+                                                                  "text": ")"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "System"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 65,
+                                                              "text": "."
+                                                            },
+                                                            {
+                                                              "type": 100,
+                                                              "text": "out"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "literal": [
+                                                                        {
+                                                                          "type": 55,
+                                                                          "text": "\"Current date: \""
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 81,
+                                                              "text": "+"
+                                                            },
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "currentDate"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "classOrInterfaceType": [
+                                                        {
+                                                          "type": 100,
+                                                          "text": "DateTimeFormatter"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "formatter"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "expression": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 100,
+                                                                              "text": "DateTimeFormatter"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 65,
+                                                                      "text": "."
+                                                                    },
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "ofPattern"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 57,
+                                                                  "text": "("
+                                                                },
+                                                                {
+                                                                  "expressionList": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "literal": [
+                                                                                {
+                                                                                  "type": 55,
+                                                                                  "text": "\"dd-MM-yyyy\""
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 58,
+                                                                  "text": ")"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclarationStatement": [
+                                            {
+                                              "localVariableDeclaration": [
+                                                {
+                                                  "typeSpec": [
+                                                    {
+                                                      "classOrInterfaceType": [
+                                                        {
+                                                          "type": 100,
+                                                          "text": "String"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "variableDeclarators": [
+                                                    {
+                                                      "variableDeclarator": [
+                                                        {
+                                                          "variableDeclaratorId": [
+                                                            {
+                                                              "type": 100,
+                                                              "text": "formattedDate"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 66,
+                                                          "text": "\u003d"
+                                                        },
+                                                        {
+                                                          "variableInitializer": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "expression": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 100,
+                                                                              "text": "currentDate"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 65,
+                                                                      "text": "."
+                                                                    },
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "format"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 57,
+                                                                  "text": "("
+                                                                },
+                                                                {
+                                                                  "expressionList": [
+                                                                    {
+                                                                      "expression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 100,
+                                                                              "text": "formatter"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 58,
+                                                                  "text": ")"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "statementExpression": [
+                                                {
+                                                  "expression": [
+                                                    {
+                                                      "expression": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "System"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 65,
+                                                              "text": "."
+                                                            },
+                                                            {
+                                                              "type": 100,
+                                                              "text": "out"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 65,
+                                                          "text": "."
+                                                        },
+                                                        {
+                                                          "type": 100,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 57,
+                                                      "text": "("
+                                                    },
+                                                    {
+                                                      "expressionList": [
+                                                        {
+                                                          "expression": [
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "literal": [
+                                                                        {
+                                                                          "type": 55,
+                                                                          "text": "\"Formatted date: \""
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 81,
+                                                              "text": "+"
+                                                            },
+                                                            {
+                                                              "expression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "type": 100,
+                                                                      "text": "formattedDate"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 58,
+                                                      "text": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 63,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": 60,
+                                      "text": "}"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 60,
+                  "text": "}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": -1,
+      "text": "\u003cEOF\u003e"
+    }
+  ]
+}
